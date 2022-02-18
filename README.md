@@ -1,5 +1,6 @@
 # React + PHP + MySQL + React-Bootstrap
 
+The Data Layer is implemented on a MySql server, which can be managed via Apache by an administrator. It is exposed by the MySql server. This recipes CRUD application's database has 4 tables, one for recipes, one for categories, one for ingredients and a link table between recipes table and ingredients table for the amount of ingredients. The Business Logic Layer is written in PHP. It fetch informations from database, sends data from form controls to database, makes posts and updates to/of the database, deletes information from database.The Presentation Layer is written in React. The recipes are presented by cards which can be detailed each of them. One card can be deleted and edited. It can be edited or deleted the amount of ingredients and the ingredients for that recipe. There is a form to add new recipes.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
